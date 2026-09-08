@@ -12,30 +12,15 @@ de orçamento ligado a uma base de dados Supabase.
   políticas de segurança (RLS)
 - `assets/` — fotografias do portfólio (ver lista abaixo)
 
-## Fotos em falta
-O ficheiro de design original referenciava fotos que ainda não existem
-como ficheiros. Substitui pelos ficheiros reais em `assets/` com estes
-nomes exatos (o layout já está preparado para eles):
-
-| Ficheiro | Usado em |
-|---|---|
-| `p01.jpg` | Graça — sala e zona de jantar (imagem grande) |
-| `p02.jpg` | Expertise — escadas |
-| `p03.jpg` | Alcântara — cozinha |
-| `p04.jpg` | Alcântara — entrada e corredor (imagem grande) |
-| `p05.jpg` | Alcântara — detalhe de iluminação |
-| `p06.jpg` | Expertise — detalhe de toalhas |
-| `p07.jpg` | Graça — quarto |
-| `p08.jpg` | Graça — detalhe de styling |
-| `p09.jpg` | Hero (topo da página) — sala de estar |
-| `p11.jpg` | Príncipe Real — cozinha em mansarda (imagem grande) |
-| `p12.jpg` | Quem somos — cozinha com luz natural |
-| `p13.jpg` | Expertise — cozinha |
-| `p14.jpg` | Príncipe Real — casa de banho |
-| `p15.jpg` | Príncipe Real — varanda |
-
-Até lá adicionares, cada espaço mostra um gradiente escuro em vez de
-imagem partida — o site funciona na mesma.
+## Fotos
+`assets/p01.jpg` … `p15.jpg` (sem p10) estão preenchidas com uma seleção
+de fotos reais de Carcavelos, Ourique 98 e Palácio 2 — os apartamentos já
+identificados como os exemplos mais fortes do portfólio. Os nomes dos
+"projetos" (Graça, Alcântara, Príncipe Real) são placeholders do design
+original; troca-os pelos nomes/moradas reais quando fizer sentido, ou
+substitui as fotos por outras a qualquer momento — o layout aceita
+qualquer imagem nesses 14 ficheiros. Se um ficheiro faltar, o espaço
+mostra um gradiente escuro em vez de imagem partida.
 
 ## Como correr localmente
 Não precisas de Node nem de build. Basta abrir um servidor estático
